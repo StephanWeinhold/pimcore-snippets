@@ -1,3 +1,4 @@
+<?php
 /**
  * @param $folderId
  *
@@ -31,3 +32,4 @@ public static function getRandomObject($folderId)
     }
     return false;
 }
+?>
