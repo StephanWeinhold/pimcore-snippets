@@ -1,0 +1,17 @@
+#navigation ul li ul,
+#navigation ul li.active ul li ul,
+#navigation ul li.active ul li.active ul li ul,
+#navigation ul li.active ul li.active ul li.active ul li ul,
+#navigation ul li.active ul li.active ul li.active ul li.active ul li ul,
+#navigation ul li.active ul li.active ul li.active ul li.active ul li.active ul li ul {
+    display: none;
+}
+
+#navigation ul li.active ul,
+#navigation ul li.active ul li.active ul,
+#navigation ul li.active ul li.active ul li.active ul,
+#navigation ul li.active ul li.active ul li.active ul li.active ul,
+#navigation ul li.active ul li.active ul li.active ul li.active ul li.active ul,
+#navigation ul li.active ul li.active ul li.active ul li.active ul li.active ul li.active ul {
+    display: block;
+}
