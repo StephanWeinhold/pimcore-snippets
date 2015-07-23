@@ -1,5 +1,3 @@
-```php
-
 <?php
 class ObjectNavigation
 {
@@ -73,5 +71,3 @@ class ObjectNavigation
     }
 }
 ?>
-
-```
