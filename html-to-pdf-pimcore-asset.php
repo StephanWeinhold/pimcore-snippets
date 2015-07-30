@@ -1,6 +1,7 @@
+<?php
 /**
- * Grabbing the PDF-object via stream didn't work, so I wrote this little funtion
- * Based on https://github.com/mikehaertl/phpwkhtmltopdf
+ * Grabbing the PDF-object via stream didn't work, so I wrote this little function
+ * Uses https://github.com/mikehaertl/phpwkhtmltopdf but this will work with any other library too
  */
 use Pimcore\Model\Asset;
  
@@ -37,3 +38,4 @@ public function htmlToPdfPimcoreAsset() {
         return $e->getMessage();
     }
 }
+?>
