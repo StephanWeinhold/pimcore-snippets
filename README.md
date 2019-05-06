@@ -1,4 +1,6 @@
-pimcore-snippets
+⛔️ DEPRECATED
+
+### pimcore-snippets
 ================
 - **getRandomObject($folderId)** - Takes an ID of a pimcore object-folder and returns a random object from this folder including it's subfolders.
 - **html-to-pdf-pimcore-asset** - Generates an pimcore Asset of an URL out of a WkHtmlToPdf-Object.
